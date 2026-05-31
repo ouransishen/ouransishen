@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>首页 on 偶然死神</title><link>https://ouransishen.cn/</link><description>Recent content in 首页 on 偶然死神</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 08:44:22 +0800</lastBuildDate><atom:link href="https://ouransishen.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>gost隧道的一些研究</title><link>https://ouransishen.cn/posts/gost/</link><pubDate>Mon, 25 May 2026 08:44:22 +0800</pubDate><guid>https://ouransishen.cn/posts/gost/</guid><description>&lt;h2 id="关于gost"&gt;关于gost&lt;/h2&gt;
+&lt;p&gt;gost是一款存放于GitHub的开源项目，3.0使用其自营的网站 &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id="简单的gost使用"&gt;简单的gost使用&lt;/h2&gt;
+&lt;h3 id="基本使用"&gt;基本使用&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;gost -L http://:8080
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;gost -L http://:8080 -F http://192.168.1.1:8080
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="关于代理转发和通道"&gt;关于代理转发和通道&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gost.run/concepts/proxy/"&gt;文章原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我的理解是使用一个gost首先需要监听某个端口，然后对接收的进行一些处理和转发的过程。&lt;/p&gt;</description></item><item><title>关于</title><link>https://ouransishen.cn/about/</link><pubDate>Mon, 25 May 2026 08:02:46 +0800</pubDate><guid>https://ouransishen.cn/about/</guid><description>&lt;h2 id="关于我"&gt;关于我&lt;/h2&gt;
+&lt;p&gt;我是一个工程专业的学生，不过经常不务正业，喜欢折腾一些东西，创立了这个网站。&lt;/p&gt;
+&lt;p&gt;我去过工厂，去过工地，做过网站（就是现在这个），也研究过隧道，加密，组网。&lt;/p&gt;</description></item><item><title>404 Not Found</title><link>https://ouransishen.cn/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ouransishen.cn/404/</guid><description>&lt;p&gt;你好像来到了一个不存在的地方。&lt;/p&gt;
+&lt;p&gt;不过没关系，&lt;a href="https://ouransishen.cn/"&gt;&lt;strong&gt;回到首页&lt;/strong&gt;&lt;/a&gt;继续逛逛吧。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;偶然死神&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>
