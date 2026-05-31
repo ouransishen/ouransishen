@@ -1,0 +1,28 @@
+        </main>
+    </div>  <!-- 闭合 body 里的 .container -->
+    <footer>
+        <div class="beian-links">
+            <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2025127091号-1</a>
+            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11011402055988" rel="noreferrer" target="_blank">
+                <img src="/beian-icon.png" alt="公安备案图标" style="height:1.1em;">
+                京公网安备 11011402055988号
+            </a>
+        </div>
+        <div style="font-size:0.75rem; margin-top:0.5rem;">
+            {{ .Site.Params.footerText | default "自留地 · 技术向" }}
+        </div>
+    </footer>
+    <script>
+        // 等待 DOM 加载完成
+        document.addEventListener('DOMContentLoaded', function() {
+            // 让所有指向外部域名的链接在新标签页打开
+            document.querySelectorAll('a[href^="http"]').forEach(link => {
+                if (!link.href.includes(window.location.hostname)) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

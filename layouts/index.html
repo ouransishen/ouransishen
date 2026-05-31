@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <!-- 显示 _index.md 里的内容（关于我部分） -->
+    {{ .Content }}
+
+    <!-- 自动生成文章列表 -->
+    <ul>
+        {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ if .Params.status }}
+                    <span class="note-meta">({{ .Params.status }})</span>
+                {{ end }}
+                <span class="note-meta">— {{ .Date.Format "2006-01-02" }}</span>
+            </li>
+        {{ else }}
+            <li>还没有文章，正在积累中...</li>
+        {{ end }}
+    </ul>
+    <p style="font-size:0.85rem; color:#5b6e8c;">→ 笔记慢慢补，不赶时间。</p>
+
+{{ end }}

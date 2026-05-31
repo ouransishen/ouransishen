@@ -1,0 +1,97 @@
+<style>
+    /* 极简样式：干净、留白、不花哨 */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        background-color: #fafafa;
+        color: #1e1e2a;
+        line-height: 1.6;
+        padding: 2rem 1rem;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    }
+
+    header {
+        border-bottom: 1px solid #eaeef5;
+        padding-bottom: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .site-name {
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: -0.3px;
+    }
+
+    .tagline {
+        color: #5b6e8c;
+        margin-top: 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 1.5rem 0 0.75rem 0;
+        padding-bottom: 0.25rem;
+        border-bottom: 1px solid #eef2f8;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 1.2rem 0 0.5rem 0;
+    }
+
+    ul, p {
+        margin-bottom: 1rem;
+    }
+
+    li {
+        margin-left: 1.5rem;
+        margin-bottom: 0.25rem;
+    }
+
+    a {
+        color: #1e1e2a;
+        text-decoration: none;
+        border-bottom: 1px dotted #cbd5e1;
+    }
+
+    a:hover {
+        border-bottom-color: #1e1e2a;
+    }
+
+    footer {
+        margin-top: 3.125rem;
+        padding: 1.25rem;
+        border-top: 1px solid #eee;
+        font-size: 0.875rem;
+        color: #666;
+        text-align: center;
+    }
+
+    .note-meta {
+        font-size: 0.8rem;
+        color: #8a99b0;
+        margin-top: 0.2rem;
+    }
+
+    hr {
+        margin: 1rem 0;
+        border: none;
+        border-top: 1px solid #eef2f8;
+    }
+</style>

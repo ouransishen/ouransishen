@@ -1,0 +1,12 @@
+baseURL = 'https://ouransishen.cn/'
+languageCode = 'zh-cn'
+title = '偶然死神'
+hasCJKLanguage = true
+[params]
+  tagline = "笔记 · 折腾 · 自留地"
+  footerText = "自留地 · 技术向"
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+disableKinds = ["404"] 
