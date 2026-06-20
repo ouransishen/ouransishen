@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- 定义橙色渐变，模拟原图的立体质感 -->
+    <linearGradient id="dtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA534"/>
+      <stop offset="100%" stop-color="#F2801D"/>
+    </linearGradient>
+    <!-- 阴影滤镜，模拟立体感 -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="5" stdDeviation="6" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- 字母 D -->
+  <g filter="url(#shadow)">
+    <!-- D 的外轮廓（使用路径绘制，中间部分直接镂空） -->
+    <path d="M 80 140
+             L 170 140
+             C 230 140, 270 175, 270 250
+             C 270 325, 230 360, 170 360
+             L 80 360
+             Z
+             M 130 190
+             C 180 190, 210 215, 210 250
+             C 210 285, 180 310, 130 310
+             Z"
+          fill="url(#dtGrad)"
+          fill-rule="evenodd"/>
+  </g>
+
+  <!-- 字母 T -->
+  <g filter="url(#shadow)">
+    <!-- T 的横杠 -->
+    <rect x="280" y="140" width="160" height="70" rx="12" fill="url(#dtGrad)"/>
+    <!-- T 的竖杠 -->
+    <rect x="340" y="190" width="50" height="170" rx="10" fill="url(#dtGrad)"/>
+  </g>
+</svg>

@@ -24,5 +24,12 @@
             });
         });
     </script>
+    {{ if .Page.Store.Get "hasMermaid" }}
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>
+            // 此时整个 DOM 已加载完毕，可以直接初始化
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    {{ end }}
 </body>
 </html>

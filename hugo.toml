@@ -1,4 +1,4 @@
-baseURL = 'https://ouransishen.cn/'
+baseURL = 'https://www.ouransishen.cn/'
 languageCode = 'zh-cn'
 title = '偶然死神'
 hasCJKLanguage = true
@@ -9,4 +9,5 @@ hasCJKLanguage = true
   [markup.highlight]
     style = "github"
     lineNos = false
-disableKinds = ["404"] 
+    noClasses = false
+disableKinds = ["404","418"] 
