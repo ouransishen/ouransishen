@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfig version="1.1">
+  <emailProvider id="ouransishen.cn">
+    <!-- 显示在客户端里的名称 -->
+    <domain>ouransishen.cn</domain>
+    <displayName>偶然死神</displayName>
+    <displayShortName>ORSS</displayShortName>
+
+    <!-- ============ 收信服务器（IMAP）配置 ============ -->
+    <incomingServer type="imap">
+      <hostname>imap.ouransishen.cn</hostname>
+      <port>993</port>
+      <socketType>SSL</socketType>
+      <username>%EMAILADDRESS%</username>
+      <!-- 如果用户名只需前缀，改成 %EMAILLOCALPART% -->
+      <authentication>password-cleartext</authentication>
+    </incomingServer>
+
+    <!-- ============ 发信服务器（SMTP）配置 ============ -->
+    <outgoingServer type="smtp">
+      <hostname>smtp.ouransishen.cn</hostname>
+      <port>465</port>
+      <socketType>SSL</socketType>
+      <username>%EMAILADDRESS%</username>
+      <authentication>password-cleartext</authentication>
+    </outgoingServer>
+
+    <!-- ============ 补充说明（帮助用户填密码） ============ -->
+    <documentation url="https://你的域名.com/help/email-settings">
+      <descr lang="zh-CN">请使用邮箱完整地址作为用户名，使用专用密码或授权码登录</descr>
+    </documentation>
+  </emailProvider>
+</clientConfig>
