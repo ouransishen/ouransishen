@@ -1,0 +1,6 @@
+version: STSv1
+mode: testing
+mx: mx1.qiye.aliyun.com
+mx: mx2.qiye.aliyun.com
+mx: mx3.qiye.aliyun.com
+max_age: 86401
