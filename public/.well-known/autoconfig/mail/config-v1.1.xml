@@ -24,10 +24,3 @@
       <username>%EMAILADDRESS%</username>
       <authentication>password-cleartext</authentication>
     </outgoingServer>
-
-    <!-- ============ 补充说明（帮助用户填密码） ============ -->
-    <documentation url="https://www.ouransishen.cn/help/email-settings">
-      <descr lang="zh-CN">请使用邮箱完整地址作为用户名，使用专用密码或授权码登录</descr>
-    </documentation>
-  </emailProvider>
-</clientConfig>
