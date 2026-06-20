@@ -8,7 +8,7 @@
 
     <!-- ============ 收信服务器（IMAP）配置 ============ -->
     <incomingServer type="imap">
-      <hostname>imap.ouransishen.cn</hostname>
+      <hostname>imap.qiye.aliyun.com</hostname>
       <port>993</port>
       <socketType>SSL</socketType>
       <username>%EMAILADDRESS%</username>
@@ -18,7 +18,7 @@
 
     <!-- ============ 发信服务器（SMTP）配置 ============ -->
     <outgoingServer type="smtp">
-      <hostname>smtp.ouransishen.cn</hostname>
+      <hostname>smtp.qiye.aliyun.com</hostname>
       <port>465</port>
       <socketType>SSL</socketType>
       <username>%EMAILADDRESS%</username>
