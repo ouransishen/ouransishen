@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response>
+    <Culture>zh-CN</Culture>
+    <User>
+      <DisplayName>偶然死神</DisplayName>
+    </User>
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>imap.qiye.aliyun.com</Server>
+        <Port>993</Port>
+        <LoginName>%EMAILADDRESS%</LoginName>
+        <SSL>On</SSL>
+        <Authentication>PasswordCleartext</Authentication>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>smtp.qiye.aliyun.com</Server>
+        <Port>465</Port>
+        <LoginName>%EMAILADDRESS%</LoginName>
+        <SSL>On</SSL>
+        <Authentication>PasswordCleartext</Authentication>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
