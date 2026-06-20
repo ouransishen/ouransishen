@@ -1,4 +1,4 @@
 Contact: mailto:abuse@ouransishen.cn
-Encryption: https://www.ouransishen.cn/.well-known/abuse@ouransishen.cn-(0xB88DE98DEF76F99E)-public.asc
+Encryption: https://www.ouransishen.cn/.well-known/openpgp/abuse@ouransishen.cn-(0xB88DE98DEF76F99E)-public.asc
 Preferred-Languages: zh-CN, en
 Expires: 2027-12-31T23:59:00Z
